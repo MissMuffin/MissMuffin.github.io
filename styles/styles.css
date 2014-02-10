@@ -1,0 +1,77 @@
+<link rel="stylesheet" href="css/styles.css">
+
+body {
+	background: #252525;
+	margin: 0;
+}
+
+li a {
+	color: white;
+	text-decoration: none;
+}
+
+h1, h2{
+  color: white;
+  margin: 0 0 10px;
+  //*font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;*//
+  font-weight: normal;
+}
+
+header h1 {
+	text-align: center;
+	line-height: 40px;
+	font-size: 40px;
+	padding-top: 25px;
+}
+
+header a {
+	text-decoration: none;
+}
+
+header h2 {
+	text-align: center;
+	font-size: 20px;
+
+}
+
+.wrapper {
+	max-width: 650px;
+	margin: 0 auto;
+}
+
+#topBar > ul{
+	background: blue;
+	list-style: none;
+	margin: 0;
+}
+
+#topBar li {
+	float: left;
+	border: 1px solid #ff0000;
+	background-color: red;
+	border-radius: 0 0 5px 5px;
+	padding: 15px 20px;
+	margin: 0 0 0 15px;
+	line-height: 14px;
+	display: inline-block;
+	text-align: center;
+	box-shadow: 2px 2px 5px 0 #ffffff;
+}
+
+#topBar{
+	display: block;
+	background: red;
+	margin: auto;
+	width: 70%
+}
+
+#header{
+	padding: 1%;
+	display: inline-block;
+	left: 0;
+	top: 0px;
+	height: 100px;
+	width: 100%;
+	background: green;
+	border-bottom: 4px solid #434343;
+}
