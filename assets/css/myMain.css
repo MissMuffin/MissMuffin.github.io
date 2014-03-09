@@ -44,9 +44,11 @@ img {
   vertical-align: middle;
 }
 
-.post img {
+.post img,
+.post iframe{
   border-radius: 1%;
   box-shadow: 3px 3px 5px #989898;
+  margin-bottom: 20px;
 }
 
 html {
@@ -446,8 +448,4 @@ ol ol {
 }
 .firstEntry{
   padding-top: 50px;
-}
-
-.post {
-  padding-bottom: 30px;
 }
