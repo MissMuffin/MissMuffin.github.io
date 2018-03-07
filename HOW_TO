@@ -7,14 +7,14 @@ for creating a post create .ipynb and ipynb-meta file in /content
 to start a jupyter server to dynamically edit and run the ipynb file:
   jupyter notebook
 
-to generate static pages to see served locally run:
+to generate static pages to be served locally run:
   pelican content in /github_blog
 
 to serve files locally run:
   python -m pelican.server
 
 to generate files to push to github:
-  pelican content -s publihconf.py
+  pelican content -s publishconf.py
 
 for delpoyment to github:
 (this moves the files from output to the root in master)
