@@ -7,7 +7,7 @@ SITENAME = 'A CS Blog'
 SITEURL = ''
 
 SITESUBTITLE = 'A magical \u2728 Pelican theme'
-SITEIMAGE = '/images/profile_cropped.jpg width=200 height=200'
+# SITEIMAGE = '/images/profile_cropped.jpg width=200 height=200'
 HIDE_AUTHORS = True
 
 PATH = 'content'
@@ -15,6 +15,12 @@ PATH = 'content'
 TIMEZONE = 'Europe/Berlin'
 
 DEFAULT_LANG = 'en'
+
+LOAD_CONTENT_CACHE = False
+DELETE_OUTPUT_DIRECTORY = True
+
+ARTICLE_URL = 'posts/{date:%Y}{date:%m}{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = ARTICLE_URL + 'index.html'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -26,7 +32,7 @@ AUTHOR_FEED_RSS = None
 THEME = 'themes/pelican-alchemy/alchemy'
 
 # Blogroll
-LINKS = (('About me', '#'),)
+# LINKS = (('About me', '#'),)
 
 # ICONS
 ICONS = (
