@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A CS Blog</title><link href="http://missmuffin.github.io/" rel="alternate"></link><link href="http://missmuffin.github.io/feeds/posts.atom.xml" rel="self"></link><id>http://missmuffin.github.io/</id><updated>2016-06-08T00:00:00+02:00</updated><entry><title>First Post2</title><link href="http://missmuffin.github.io/posts/20160608/first-post2/" rel="alternate"></link><published>2016-06-08T00:00:00+02:00</published><updated>2016-06-08T00:00:00+02:00</updated><author><name>me</name></author><id>tag:missmuffin.github.io,2016-06-08:posts/20160608/first-post2/</id><summary type="html">&lt;style type="text/css"&gt;/*!
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A CS Blog</title><link href="missmuffin.github.io/" rel="alternate"></link><link href="missmuffin.github.io/feeds/posts.atom.xml" rel="self"></link><id>missmuffin.github.io/</id><updated>2016-06-08T00:00:00+02:00</updated><entry><title>First Post2</title><link href="missmuffin.github.io/posts/20160608/first-post2/" rel="alternate"></link><published>2016-06-08T00:00:00+02:00</published><updated>2016-06-08T00:00:00+02:00</updated><author><name>me</name></author><id>tag:,2016-06-08:missmuffin.github.io/posts/20160608/first-post2/</id><summary type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
