@@ -6,6 +6,10 @@ AUTHOR = 'Bianca Ploch'
 SITENAME = 'A CS Blog'
 SITEURL = ''
 
+SITESUBTITLE = 'A magical \u2728 Pelican theme'
+SITEIMAGE = '/images/profile_cropped.jpg width=200 height=200'
+HIDE_AUTHORS = True
+
 PATH = 'content'
 
 TIMEZONE = 'Europe/Berlin'
@@ -19,11 +23,17 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+THEME = 'themes/pelican-alchemy/alchemy'
+
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('About me', '#'),)
+
+# ICONS
+ICONS = (
+    ('github', 'https://github.com/MissMuffin'),
+    ('email', 'bianca.ploch@student.htw-berlin.de'),
+    ('linkedin', 'www.linkedin.com/in/bianca-ploch-b739528a'),
+)
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
@@ -39,4 +49,5 @@ MARKUP = ('md', 'ipynb')
 PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['ipynb.markup']
 
+#ignore checkpoints created by running jupyter
 IGNORE_FILES = ['.ipynb_checkpoints']
